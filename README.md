@@ -1,8 +1,20 @@
-# ShadowGuard
+<div align="center">
+  <img src="SHADOWGUARD v1.0.0_2.png" alt="ShadowGuard Launch Graphic" width="600">
+
+  <br><br>
+
+  [![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/maheensayuru.shadowguard-vscode?style=for-the-badge&color=00FF00&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=maheensayuru.shadowguard-vscode)
+  [![Installs](https://img.shields.io/visual-studio-marketplace/i/maheensayuru.shadowguard-vscode?style=for-the-badge&color=blue)](https://marketplace.visualstudio.com/items?itemName=maheensayuru.shadowguard-vscode)
+  [![License](https://img.shields.io/github/license/maheensayuru/ShadowGuard?style=for-the-badge&color=darkgray)](LICENSE)
+
+  <br>
+
+  <b>An elite, 100% air-gapped DevSecOps extension that detects leaked API keys, credentials, and custom database passwords in real-time as you type.</b>
+</div>
+
+<br>
 
 ![ShadowGuard Demo](Animation.gif)
-
-An elite, 100% air-gapped DevSecOps extension that detects leaked API keys, credentials, and custom database passwords in real-time as you type.
 
 Unlike standard regex-based scanners that only look for known vendor prefixes (like AWS or Stripe), ShadowGuard is powered by a locally executing, multi-threaded Go engine that calculates **Shannon Entropy**. If you type a highly random, custom 32-character password, ShadowGuard's mathematical engine will instantly flag it.
 
