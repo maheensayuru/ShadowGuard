@@ -3,10 +3,14 @@
   "displayName": "ShadowGuard",
   "description": "Real-time entropy and regex secret scanner.",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "publisher": "maheensayuru",
   "repository": {
     "type": "git",
     "url": "https://github.com/maheensayuru/ShadowGuard"
+  },
+  "bugs": {
+    "url": "https://github.com/maheensayuru/ShadowGuard/issues"
   },
   "engines": {
     "vscode": "^1.118.0"
