@@ -1,71 +1,23 @@
-# shadowguard-vscode README
+# ShadowGuard
 
-This is the README for your extension "shadowguard-vscode". After writing up a brief description, we recommend including the following sections.
+![ShadowGuard Demo](Animation.gif)
+
+An elite, 100% air-gapped DevSecOps extension that detects leaked API keys, credentials, and custom database passwords in real-time as you type.
+
+Unlike standard regex-based scanners that only look for known vendor prefixes (like AWS or Stripe), ShadowGuard is powered by a locally executing, multi-threaded Go engine that calculates **Shannon Entropy**. If you type a highly random, custom 32-character password, ShadowGuard's mathematical engine will instantly flag it.
+
+## The Architecture
+* **Zero Latency:** The engine is written in Go, utilizing concurrent buffers to scan files in microseconds without blocking the Node.js event loop.
+* **100% Air-Gapped:** No cloud telemetry. No user accounts. No API keys required. Your code never leaves your local machine.
+* **Cryptographic Detection:** Uses Shannon Entropy algorithms ($H = - \sum p_i \log_2(p_i)$) to detect unknown, custom secrets that bypass standard linters.
 
 ## Features
+* Scans all standard text and code documents locally.
+* Highlights vulnerabilities instantly with red diagnostic squiggles.
+* Supports Windows, macOS (Intel & Apple Silicon), and Linux via bundled cross-compiled binaries.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+## Usage
+Simply install the extension and write code. ShadowGuard runs silently in the background and will only alert you when a critical entropy threshold is breached.
 
 ---
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+*Engineered for secure backend architecture.*
