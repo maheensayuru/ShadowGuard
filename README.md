@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="SHADOWGUARD v1.0.0_2.png" alt="ShadowGuard Launch Graphic" width="600">
+  <img src="SHADOWGUARD%20v1.0.0_2.png" alt="ShadowGuard Launch Graphic" width="600">
 
   <br><br>
 
