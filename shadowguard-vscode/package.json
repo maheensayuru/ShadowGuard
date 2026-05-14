@@ -2,7 +2,7 @@
   "name": "shadowguard-vscode",
   "displayName": "ShadowGuard",
   "description": "Real-time entropy and regex secret scanner.",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "icon": "images/icon.png",
   "publisher": "maheensayuru",
   "repository": {
