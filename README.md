@@ -5,7 +5,8 @@
 
   [![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/maheensayuru.shadowguard-vscode?style=for-the-badge&color=00FF00&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=maheensayuru.shadowguard-vscode)
   [![Installs](https://img.shields.io/visual-studio-marketplace/i/maheensayuru.shadowguard-vscode?style=for-the-badge&color=blue)](https://marketplace.visualstudio.com/items?itemName=maheensayuru.shadowguard-vscode)
-  [![License](https://img.shields.io/github/license/maheensayuru/ShadowGuard?style=for-the-badge&color=darkgray)](LICENSE)
+  [![GitHub Source](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/maheensayuru/ShadowGuard)
+  [![GitHub Issues](https://img.shields.io/github/issues/maheensayuru/ShadowGuard?style=for-the-badge&color=darkred&logo=github)](https://github.com/maheensayuru/ShadowGuard/issues)
 
   <br>
 
